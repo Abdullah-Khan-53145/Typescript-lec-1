@@ -15,5 +15,7 @@ let hero : string;
 function getHero (){
     return "thor";
 }
+
+// we should avoud using the keyword any because it wil ldisable the type checking further more and that will kill the usage of typescript
 hero =getHero();
 export {}
